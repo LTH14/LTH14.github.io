@@ -17,7 +17,7 @@ form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+section, summary, time, mark, audio, video, mylink {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -118,6 +118,25 @@ input, select, textarea {
 		a:hover {
 			border-bottom-color: transparent;
 			color: #ffffff !important;
+			text-decoration: none;
+		}
+
+	mylink {
+		color: #49bf9d;
+		font-weight: 400;
+		font-size: 1.0em;
+		line-height: 1.5em;
+		margin: 0 0 1em 0;
+	}
+
+		mylink a, {
+			color: inherit;
+			text-decoration: none;
+		}
+
+		mylink a:hover {
+			border-bottom-color: transparent;
+			color: #000000 !important;
 			text-decoration: none;
 		}
 
