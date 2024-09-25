@@ -17,19 +17,21 @@
 			<header id="header">
 				<div class="inner">
 					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-					<h1><name>I'm Tianhong Li (黎天鸿),<br />a Ph.D. student at MIT.</name><br />
+					<h1><name>I'm Tianhong Li (黎天鸿),<br />a postdoc at MIT.</name><br />
 					</a></h1>
 				</div>
 				<nav id="nav">
 					<ul>
 						<h3>
 						<a href="#one" class="active">About</a><br/>
+						<h3>
+						<a href="#two" class="active">News</a><br/>
 						<br/>
-						<a href="#two" class="active">Publications</a><br/>
+						<a href="#three" class="active">Publications</a><br/>
 						<br/>
-						<a href="#three" class="active">Recipes</a><br/>
+						<a href="#four" class="active">Recipes</a><br/>
 						<br/>
-						<a href="#four" class="active">Contact</a><br/>	
+						<a href="#five" class="active">Contact</a><br/>	
 						</h3>
 					</ul>
 				</nav>
@@ -43,14 +45,24 @@
 						<header class="major">
 							<h1>About</h1>
 						</header>
-						<p><h3>I am a final year Ph.D. candidate at MIT EECS. I am very fortunate to be advised by Prof. Dina Katabi in NETMIT, CSAIL. Before MIT, I received my B.E. in computer science from Yao Class, Tsinghua University.</h3></p>
-						<p><h3>My research interests lie in representation learning and generative models. I aim to build an intelligent visual system that can understand the world beyond human perception. </h3></p>
-						<p><h3><b><font color="#881900">[Update]</font></b> I will join Prof. Kaiming He's group as a Postdoctoral Associate in September, 2024.</h3></p>
+						<p><h3>I am a Postdoctoral Associate at MIT CSAIL, working with Prof. Kaiming He. Prior to this, I am very fortunate to be advised by Prof. Dina Katabi while completing my Ph.D. and S.M. at MIT. I received my B.E. in computer science from Yao Class, Tsinghua University.</h3></p>
+						<p><h3>My research interests lie in representation learning and generative models. I aim to build intelligent visual systems that can understand the world beyond human perception. </h3></p>
 					</section>
 
 				<!-- Two -->
+				<section id="two">
+						<header class="major">
+							<h1>News</h1>
+						</header>
+						<h3><b><font color="#881900">[09/24]</font></b> I will serve as an Area Chair for ICLR 2025.
+						<h3><b><font color="#881900">[09/24]</font></b> I joined Prof. Kaiming He's group as a Postdoctoral Associate at MIT CSAIL.
+						<h3><b><font color="#881900">[07/24]</font></b> I gave a <mylink><a href="https://event.baai.ac.cn/activities/818" >talk</a></mylink> at BAAI (in Chinese) about our recent work <mylink><a href="https://arxiv.org/pdf/2406.11838" >MAR</a></mylink>.
+						<h3><b><font color="#881900">[05/24]</font></b> I defended my Ph.D. thesis: Towards a Unified Framework for Visual Recognition and Generation via Masked Generative Modeling.
+					</section>
 
-					<section id="two">
+				<!-- Three -->
+
+					<section id="three">
 						<h1>Publications</h1>
 						<div class="row">
 							<article class="col-3 col-12-xsmall work-item">
@@ -59,9 +71,12 @@
 							<article class="col-9 col-12-xsmall work-item">
 								<b><font color="#000000">Autoregressive Image Generation without Vector Quantization</font></b><br>
 								<u><b><font color="#000000">T. Li</b></u></font>, Y. Tian, H. Li, M. Deng, and K. He<br>
-								<mylink><a href="https://arxiv.org/pdf/2406.11838" >[Arxiv]</a></mylink>
-								<mylink><a href="https://github.com/LTH14/mar" >[GitHub]</a></mylink>
+								<b><i><font color="#000000">Neural Information Processing Systems (Neurips), 2024 </font></i></b><br />
+								<mylink><a href="https://arxiv.org/pdf/2406.11838" >[Paper]</a></mylink>
+								<mylink><a href="https://github.com/LTH14/mar" >[Code]</a></mylink>
 								<mylink><a href="https://colab.research.google.com/github/LTH14/mar/blob/main/demo/run_mar.ipynb" >[Demo]</a></mylink>
+								<mylink><a href="https://huggingface.co/jadechoghari/mar" >[Hugging Face]</a></mylink>
+								<br><b><font color="#881900">Spotlight Presentation</font></b>
 							</article>
 
 							<article class="col-3 col-12-xsmall work-item">
@@ -70,8 +85,10 @@
 							<article class="col-9 col-12-xsmall work-item">
 								<b><font color="#000000">Return of Unconditional Generation: A Self-supervised Representation Generation Method</font></b><br>
 								<u><b><font color="#000000">T. Li</b></u></font>, D. Katabi, and K. He<br>
-								<mylink><a href="https://arxiv.org/abs/2312.03701" >[Arxiv]</a></mylink>
-								<mylink><a href="https://github.com/LTH14/rcg" >[GitHub]</a></mylink>
+								<b><i><font color="#000000">Neural Information Processing Systems (Neurips), 2024 </font></i></b><br />
+								<mylink><a href="https://arxiv.org/abs/2312.03701" >[Paper]</a></mylink>
+								<mylink><a href="https://github.com/LTH14/rcg" >[Code]</a></mylink>
+								<br><b><font color="#881900">Oral Presentation</font></b>
 							</article>
 
 							<article class="col-3 col-12-xsmall work-item">
@@ -81,9 +98,8 @@
 								<b><font color="#000000">Leveraging Unpaired Data for Vision-Language Generative Models via Cycle Consistency</font></b><br>
 								<u><b><font color="#000000">T. Li</b></u></font>, S. Bhardwaj, Y. Tian, H. Zhang, J. Barber, D. Katabi, G. Lajoie, H. Chang, and D. Krishnan<br>
 								<b><i><font color="#000000">International Conference on Learning Representations (ICLR), 2024 </font></i></b><br />
-								<mylink><a href="papers/itit.pdf" >[PDF]</a></mylink>
-								<mylink><a href="https://arxiv.org/abs/2310.03734" >[Arxiv]</a></mylink>
-								<br><b><font color="#881900">Spotlight Presentation</font></b>
+								<mylink><a href="https://arxiv.org/abs/2310.03734" >[Paper]</a></mylink>
+								<br><b><font color="#881900">Spotlight Presentation (top 5%)</font></b>
 							</article>
 
 							<article class="col-3 col-12-xsmall work-item">
@@ -92,8 +108,7 @@
 							<article class="col-9 col-12-xsmall work-item">
 								<b><font color="#000000">Reparo: Loss-Resilient Generative Codec for Video Conferencing</font></b><br>
 								<u><b><font color="#000000">T. Li</b></u></font>, V. Sivaraman, L. Fan, M. Alizadeh, and D. Katabi<br>
-								<mylink><a href="papers/reparo.pdf" >[PDF]</a></mylink>
-								<mylink><a href="https://arxiv.org/abs/2305.14135" >[Arxiv]</a></mylink>
+								<mylink><a href="https://arxiv.org/abs/2305.14135" >[Paper]</a></mylink>
 							</article>
 
 							<article class="col-3 col-12-xsmall work-item">
@@ -103,9 +118,8 @@
 								<b><font color="#000000">MAGE: MAsked Generative Encoder to Unify Representation Learning and Image Synthesis</font></b><br>
 								<u><b><font color="#000000">T. Li</b></u></font>, H. Chang, S. K. Mishra, H. Zhang, D. Katabi and D. Krishnan<br>
 								<i><b><font color="#000000">Computer Vision and Pattern Recognition (CVPR), 2023</font></b></i><br>
-								<mylink><a href="papers/mage.pdf" >[PDF]</a></mylink>
-								<mylink><a href="https://arxiv.org/abs/2211.09117" >[Arxiv]</a></mylink>
-								<mylink><a href="https://github.com/LTH14/mage" >[GitHub]</a></mylink>
+								<mylink><a href="https://arxiv.org/abs/2211.09117" >[Paper]</a></mylink>
+								<mylink><a href="https://github.com/LTH14/mage" >[Code]</a></mylink>
 								<mylink><a href="https://news.mit.edu/2023/computer-vision-system-marries-image-recognition-generation-0628" >[MIT News]</a></mylink>
 							</article>
 
@@ -116,9 +130,8 @@
 								<b><font color="#000000">Targeted Supervised Contrastive Learning for Long-Tailed Recognition</font></b><br>
 								<u><b><font color="#000000">T. Li</b></u>*</font>, P. Cao*, Y. Yuan, L. Fan, Y. Yang, R. Feris, P. Indyk and D. Katabi<br>
 								<i><b><font color="#000000">Computer Vision and Pattern Recognition (CVPR), 2022</font></b></i><br>
-								<mylink><a href="papers/tsc.pdf" >[PDF]</a></mylink>
-								<mylink><a href="https://arxiv.org/abs/2111.13998" >[Arxiv]</a></mylink>
-								<mylink><a href="https://github.com/LTH14/targeted-supcon" >[GitHub]</a></mylink>
+								<mylink><a href="https://arxiv.org/abs/2111.13998" >[Paper]</a></mylink>
+								<mylink><a href="https://github.com/LTH14/targeted-supcon" >[Code]</a></mylink>
 							</article>
 
 							<article class="col-3 col-12-xsmall work-item">
@@ -128,7 +141,7 @@
 								<b><font color="#000000">Making Contrastive Learning Robust to Shortcuts</font></b><br>
 								<u><b><font color="#000000">T. Li</b></u>*</font>, L. Fan*, Y. Yuan, H. He, Y. Tian, R. Feris, P. Indyk and D. Katabi<br>
 								<i><b><font color="#000000">Winter Conference on Applications of Computer Vision (WACV), 2023</font></b></i><br>
-								<font color="#4183C4"><a href="https://arxiv.org/pdf/2012.09962.pdf">[PDF]</a></font> <font color="#4183C4"><a href="https://www.youtube.com/watch?v=wbtAOIS16LY"> [Talk] </a></font>
+								<font color="#4183C4"><a href="https://arxiv.org/abs/2012.09962">[Paper]</a></font> <font color="#4183C4"><a href="https://www.youtube.com/watch?v=wbtAOIS16LY"> [Talk] </a></font>
 							</article>
 
 							<article class="col-3 col-12-xsmall work-item">
@@ -138,7 +151,7 @@
 								<b><font color="#000000">Unsupervised Learning for Human Sensing Using Radio Signals</font></b><br>
 								<u><b><font color="#000000">T. Li</b></u>*</font>, L. Fan*, Y. Yuan* and D. Katabi<br>
 								<i><b><font color="#000000">Winter Conference on Applications of Computer Vision (WACV), 2022</font></b></i><br>
-								<mylink><a href="papers/rfrcl.pdf" >[PDF]</a></mylink>
+								<mylink><a href="papers/rfrcl.pdf" >[Paper]</a></mylink>
 							</article>
 							
 							<article class="col-3 col-12-xsmall work-item">
@@ -150,13 +163,6 @@
 								<i><b><font color="#000000">European Conference on Computer Vision (ECCV), 2020</font></b></i><br>
 								<font color="#4183C4"><a href="http://rf-diary.csail.mit.edu/" class="hove">[Project Page]</a></font>  <font color="#4183C4"><a href="http://rf-diary.csail.mit.edu/papers/rfdiary_eccv.pdf">[PDF]</a></font> <font color="#4183C4"><a href="https://arxiv.org/abs/2008.10966">[arXiv]</a></font> <font color="#4183C4"><a href="http://rf-diary.csail.mit.edu/slides/longtalk.pdf"> [Slides] </a></font>  <font color="#4183C4"><a href="https://youtu.be/j528nQs4_a8"> [Demo] </a></font> <font color="#4183C4"><a href="https://youtu.be/LA-JW4_ovAQ"> [Video] </a></font> <font color="#4183C4"><a href="https://youtu.be/S2Y-zPJnl9U"> [Talk] </a></font>  <font color="#4183C4"><a href="https://www.csail.mit.edu/news/device-nursing-homes-can-monitor-residents-activities-permission-and-without-video"> [CSAIL News]</a></font>  <font color="#4183C4"><a href="https://techcrunch.com/2020/08/24/mit-wireless-system-can-monitor-what-care-facility-residents-are-doing-while-preserving-privacy/"> [TechCrunch]</a></font>  <font color="#4183C4"><a href="https://www.engadget.com/mit-wireless-signals-monitoring-machine-learning-rf-diary-040049578.html"> [Engadget]</a></font>  <font color="#4183C4"><a href="https://venturebeat.com/2020/08/24/mit-csails-rf-diary-monitors-people-through-walls-and-in-total-darkness/"> [VentureBeat]</a></font> 
 								<br><b><font color="#881900">Oral Presentation</font></b>
-								<!-- <h3>In-Home Daily-Life Captioning Using Radio Signals<br /></h3>
-								<h3>L. Fan*, <u><b>T. Li</b></u>*, Y. Yuan and D. Katabi<br /></h3>
-								<h3><i>European Conference on Computer Vision (ECCV), 2020</i> <b><font color="#881900">(Oral Presentation)</font></b><br /></h3>
-								<mylink><a href="papers/rfcaption.pdf" >[PDF]</a></mylink> -->
-								<!-- <mylink><a href="http://rf-diary.csail.mit.edu/" >[Website]</a></mylink> -->
-								<!-- <mylink><a href="" >[Arxiv]</a></mylink> -->
-								<!-- <mylink><a href="https://www.youtube.com/watch?time_continue=7&v=oYv30obQ8P4&feature=emb_logo" >[Video]</a></mylink> -->
 							</article>
 
 							<article class="col-3 col-12-xsmall work-item">
@@ -261,7 +267,7 @@
 					<br />
 					<!-- </section> -->
 
-					<section id="three">
+					<section id="four">
 						<h1>Recipes</h1>
 						<h3>I really love cooking, almost the same as doing research. Here I list some of my favorite recipes as comforts for a child from Hunan, China when he misses his hometown food.</h3>
 						<div class="row">
@@ -397,10 +403,10 @@
 					</section>
 				</section>
 
-					<section id="four">
+					<section id="five">
 						<h1>Contact</h1>
-						<h3>MIT Computer Science & Artificial Intelligence Lab<br />
-						32 Vassar Street, 32-G916 <br />
+						<h3>MIT Schwarzman College of Computing<br />
+						51 Vassar Street, 733 <br />
 						Cambridge, MA 02139 <br />
 						tianhong[at]mit.edu
 					</section>
